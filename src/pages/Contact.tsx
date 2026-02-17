@@ -271,7 +271,7 @@ const Contact: React.FC = () => {
                     type="text"
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                    placeholder="John Doe"
+                    placeholder="Ali Ikram"
                     className="w-full px-4 py-3 rounded-xl glass-card bg-transparent border border-transparent focus:border-purple-500/50 focus:outline-none transition-colors"
                     required
                   />
@@ -285,7 +285,7 @@ const Contact: React.FC = () => {
                     type="email"
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                    placeholder="john@example.com"
+                    placeholder="ali@example.com"
                     className="w-full px-4 py-3 rounded-xl glass-card bg-transparent border border-transparent focus:border-purple-500/50 focus:outline-none transition-colors"
                     required
                   />
@@ -298,7 +298,7 @@ const Contact: React.FC = () => {
                   <textarea
                     value={formData.message}
                     onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                    placeholder="Tell me about your project..."
+                    placeholder="Tell me about your project or any contact reason..."
                     rows={4}
                     className="w-full px-4 py-3 rounded-xl glass-card bg-transparent border border-transparent focus:border-purple-500/50 focus:outline-none transition-colors resize-none"
                     required
